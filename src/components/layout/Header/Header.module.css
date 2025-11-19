@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: #FEBD2F;
+    align-items: center;
+    width: 100vw;
+    box-sizing: border-box;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+}
+.logo{
+    padding: 40px;
+    color:  #000000;
+}
+.nav{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+.nav a{
+    color: #000000;
+    padding: 30px;
+}
+.actions{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 40px;
+
+}
+.login{
+    justify-content: flex-end;
+    border-radius: 25px;
+}
+.signup{
+    justify-content: flex-end;
+    border-radius: 25px;
+}
